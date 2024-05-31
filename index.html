@@ -1,0 +1,142 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/DavidJOsborne/web-design-summative@latest/style.css">
+    <style>
+      body {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEeuIqjeNMY8qm4OpHefqd2IdBoiqkbLlXxYJhi-XUyD0LKnIvl3GvcSg:https://i.redd.it/iapqmzd3zu721.jpg&s');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+      }
+
+      #columns {
+        display: flex;
+        height: 100%;
+        width: 85vw;
+        align-items: top;
+        justify-content: center;
+      }
+
+      #columns>div {
+        padding: 0px 5px 0px 5px;
+        margin: 0px 5px 0px 5px;
+        border: 3px solid black;
+        box-sizing: border-box;
+      }
+
+      #topbox,
+      #bottombox {
+        margin: 5px;
+        padding: 0px 5px 0px 5px;
+        border: 3px solid black;
+        width: calc(85vw - 10px);
+        box-sizing: border-box;
+        text-align: center;
+      }
+
+      #columns>div>h2,
+      #topbox>h2 {
+        text-align: center;
+      }
+
+      #columns>div>p,
+      #topbox>p,
+      #bottombox>p {
+        color: white;
+      }
+
+      .rightaligned {
+        text-align: right;
+      }
+
+      .centeraligned {
+        text-align: center;
+      }
+
+      .leftaligned {
+        text-align: left;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: crimson;
+        text-shadow:
+          -0.05em -0.05em #000000,
+          0.05em -0.05em #000000,
+          0.05em 0.05em #000000,
+          -0.05em 0.05em #000000;
+      }
+
+      #footer {
+        text-align: center;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <a href="https://supercell.com/en/games/brawlstars/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/en/1/18/Brawl_Stars_logo.png" alt="Logo">
+    </a>
+    <h1 id="title">
+      Web Design Summative
+    </h1>
+    <hr style="height: 2px; width: 50%; background-color: crimson; border: 1px solid black;">
+    <div id="topbox">
+      <h2>
+        Site Information
+      </h2>
+      <p>
+        To learn more about this site, <a href="#bottombox">click here</a>.
+      </p>
+    </div>
+    <div id="columns">
+
+      <div>
+        <h2>
+          Brawlers
+        </h2>
+        <p class="leftaligned">
+          There are many brawlers in BrawlStars, <a href="./brawlers.html" target="_blank">click here</a> to see the different brawlers.
+        </p>
+
+      </div>
+      <div>
+        <h2>
+          Gamemodes
+        </h2>
+        <p class="centeraligned">
+          There have been <u><a style="font-weight: bold;">TONS</a></u> gamemodes in BrawlStars history, <a href="./gamemodes.html" target="_blank">click here</a> to learn about all of them!
+        </p>
+
+      </div>
+      <div>
+        <h2>
+          What is Brawl Stars?
+        </h2>
+        <p class="rightaligned">
+          <a href="./info.html" target="_blank">Click here</a> to learn about what Brawl Stars is.
+        </p>
+
+      </div>
+
+    </div>
+    <div id="bottombox">
+      <p>
+        This site was made for a summative project in my web design class.
+      </p>
+      <p>
+        My chosen topic to base the site off is Brawl Stars because thats what my friends said I should do.
+
+      </p>
+    </div>
+    <div id="footer">
+      <a href="./index.html">Back to main page</a><br>
+      <a href="https://github.com/DavidJOsborne/web-design-summative" target="_blank">GitHub repo</a>
+    </div>
+  </body>
+
+</html>
