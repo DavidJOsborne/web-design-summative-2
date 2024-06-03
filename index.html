@@ -74,20 +74,23 @@
         text-align: center;
       }
 
-      #title {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-      }
-
       #splash {
-        rotate: -22deg;
+        transform: rotate(-45deg);
+        margin-top: 280px;
+        background: rgba(255, 255, 255, 0.5);
+        height: 130px;
+        width: 130px;
+        line-height: 130px;
+        text-align: center;
         color: white;
         text-shadow: none;
-        -webkit-text-stroke: 0.05em #000000;
-        font-size: 80px;
+        -webkit-text-stroke: 0.04em #000000;
+        font-size: 140px;
         font-weight: bold;
-        transform: translate(0px, -10px);
+        position: absolute;
+        z-index: -1;
+        border: 5px solid;
+        border-radius: 50%;
       }
 
     </style>
@@ -101,11 +104,12 @@
     </a>
     <h1 id="title">
       Web Design Summative
-      <a id="splash">
-        2
-      </a>
     </h1>
-    <hr style="height: 3px; width: 50%; background-color: crimson; border: 2px solid black; border-radius: 50px;">
+    <br>
+    <p id="splash">
+      2
+    </p>
+    <hr style="height: 3px; width: 50%; background-color: crimson; border: 2px solid black; border-radius: 50px; ">
     <div id="topbox">
       <h2>
         Site Information
